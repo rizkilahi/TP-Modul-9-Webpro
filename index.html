@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Modul 9 TP</title>
+</head>
+
+<body>
+    <div>
+        <h1>Modul 9 TP</h1>
+        <form action="output.php" method="POST">
+            <div class="form-group">
+                <label for="tanggal">Tanggal Lahir</label>
+                <input type="date" name="tanggal" required>
+            </div>
+
+            <div class="form-group">
+                <div class="checkbox-group">
+                    <label>Pilih hobi yang disukai</label>
+                    <input type="checkbox" name="hobi[]" value="Science"> Science
+                    <input type="checkbox" name="hobi[]" value="Technology"> Technology
+                    <input type="checkbox" name="hobi[]" value="Art"> Art
+                    <input type="checkbox" name="hobi[]" value="Sport"> Sport
+                </div>
+            </div>
+
+            <div class="form-group submit-btn">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
